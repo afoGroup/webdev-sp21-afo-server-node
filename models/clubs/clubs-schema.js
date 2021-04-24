@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const clubsSchema = mongoose.Schema(
     {
             _id: String,
-            name: String,
+            title: String,
             description: String,
             createdDate: String,
             animeId: String,
